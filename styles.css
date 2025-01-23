@@ -1,0 +1,75 @@
+body {
+   background-color: black;
+   color: white;
+}
+
+.curtain {
+   top: -20px;
+   background-image: url('images/bg.png');
+   /* Replace with your red curtain image */
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+}
+
+.content {
+   background-color: white;
+   color: black;
+   padding: 20px;
+   border-radius: 0px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   max-width: 600px;
+   margin: auto;
+}
+
+.title {
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.btn-custom {
+   background-color: black;
+   color: white;
+   border: 1px solid white;
+   margin: 5px 0;
+}
+
+footer {
+   font-weight: lighter;
+   background-color: transparent;
+   color: white;
+   margin-top: -2rem !important
+}
+
+
+@media screen and (max-width: 375px) {
+   footer {
+      margin-top: 10px !important;
+   }
+}
+
+@keyframes rainbow {
+   0% {
+      background-position: 0% 50%;
+   }
+
+   50% {
+      background-position: 100% 50%;
+   }
+
+   100% {
+      background-position: 0% 50%;
+   }
+}
+
+.rainbow-text {
+   border-radius: 20px;
+   padding: 5px;
+   font-size: 1rem;
+   font-weight: bold;
+   color: black;
+   background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+   background-size: 500% 500%;
+   animation: rainbow 10s ease infinite;
+   filter: brightness(2) saturate(3);
+}
