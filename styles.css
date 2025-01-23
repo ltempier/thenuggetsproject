@@ -4,9 +4,7 @@ body {
 }
 
 .curtain {
-   /* top: -20px; */
    background-image: url('images/bg.png');
-   /* Replace with your red curtain image */
    background-size: cover;
    background-position: center;
    height: 100vh;
@@ -19,6 +17,11 @@ body {
    border-radius: 0px;
    max-width: 600px;
    margin: auto;
+}
+
+.with-shadow {
+   -webkit-box-shadow: 10px 10px 0px 0px #000000;
+   box-shadow: 10px 10px 0px 0px #000000;
 }
 
 .title {
