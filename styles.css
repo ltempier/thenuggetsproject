@@ -17,7 +17,7 @@ body {
    color: black;
    padding: 20px;
    border-radius: 0px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
    max-width: 600px;
    margin: auto;
 }
@@ -35,16 +35,17 @@ body {
 }
 
 footer {
+   font-size: 12px;
    font-weight: lighter;
    background-color: transparent;
    color: white;
-   margin-top: -2rem !important
+   margin-top: -17px !important
 }
 
 
 @media screen and (max-width: 375px) {
    footer {
-      margin-top: 10px !important;
+      margin-top: 30px !important;
    }
 }
 
